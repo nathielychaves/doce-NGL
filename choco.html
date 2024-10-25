@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces</title>
+    <style>
+       * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 1200px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            text-align: center;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .product-price {
+            color: #e91e63;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .add-button {
+            padding: 10px 20px;
+            background-color: #e91e63;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .add-button:hover {
+            background-color: #d01750;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <img src="asset/img/a.jpg" alt="Doce 1">
+            <div class="product-info">
+                <h2 class="product-title">Nome do Doce 1</h2>
+                <p class="product-price">R$ 25,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="asset/img/a.jpg" alt="Doce 2">
+            <div class="product-info">
+                <h2 class="product-title">Nome do Doce 2</h2>
+                <p class="product-price">R$ 30,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="asset/img/a.jpg" alt="Doce 3">
+            <div class="product-info">
+                <h2 class="product-title">Nome do Doce 3</h2>
+                <p class="product-price">R$ 35,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="asset/img/a.jpg" alt="Doce 3">
+            <div class="product-info">
+                <h2 class="product-title">Nome do Doce 3</h2>
+                <p class="product-price">R$ 35,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="asset/img/a.jpg" alt="Doce 3">
+            <div class="product-info">
+                <h2 class="product-title">Nome do Doce 3</h2>
+                <p class="product-price">R$ 35,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="asset/img/a.jpg" alt="Doce 3">
+            <div class="product-info">
+                <h2 class="product-title">Nome do Doce 3</h2>
+                <p class="product-price">R$ 35,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="asset/img/a.jpg" alt="Doce 3">
+            <div class="product-info">
+                <h2 class="product-title">Nome do Doce 3</h2>
+                <p class="product-price">R$ 35,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="asset/img/a.jpg" alt="Doce 3">
+            <div class="product-info">
+                <h2 class="product-title">Nome do Doce 3</h2>
+                <p class="product-price">R$ 35,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
