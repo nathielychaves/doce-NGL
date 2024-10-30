@@ -131,3 +131,9 @@ img{
 	border: none !important;
 	box-shadow: none !important;
 }
+
+.left img{
+	max-width: 200px;
+	max-height: 300px;
+}
+
