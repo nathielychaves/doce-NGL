@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style/choco.css">
     <title>Doces</title>
     <style>
        * {
@@ -10,10 +11,11 @@
             font-family: Arial, sans-serif;
         }
         body {
-            display: flex;
-            justify-content: center;
-            background-color: #f4f4f9;
-        }
+        display: flex;
+        justify-content: center;
+        background-color: #f4f4f9;
+        padding-top: 100px; /* Espaço para evitar sobreposição com a barra de navegação fixa */
+    }
         .container {
             max-width: 1200px;
             padding: 20px;
@@ -64,73 +66,89 @@
     </style>
 </head>
 <body>
+
+    
+        <nav>
+            <div class="nav-container">
+                <img id="logo" src="asset/img/docinhosnaty.png" alt="JobFinder">
+                <ul>
+                    <li><a href="formulario.html">𝐅𝐨𝐫𝐦𝐮𝐥𝐚𝐫𝐢𝐨</a></li>
+                    <li><a href="lancamentos.html">𝐋𝐚𝐧ç𝐚𝐦𝐞𝐧𝐭𝐨𝐬</a></li>
+                    <li><a href="home.html">𝐇𝐨𝐦𝐞</a></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                </ul>
+            </div>
+        </nav>
+
+
     <div class="container">
         <div class="product">
-            <img src="asset/img/a.jpg" alt="Doce 1">
+            <img src="asset/img/um churros com um fundo rosa.png" alt="Doce 1">
             <div class="product-info">
-                <h2 class="product-title">Nome do Doce 1</h2>
-                <p class="product-price">R$ 25,00</p>
+                <h2 class="product-title">churros</h2>
+                <p class="product-price">R$ 15,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        
+
+        <div class="product">
+            <img src="asset/img/cupcake with a pink background.png" alt="Doce 2">
+            <div class="product-info">
+                <h2 class="product-title">Cupcake</h2>
+                <p class="product-price">R$ 12,00</p>
                 <button class="add-button">Adicionar ao Carrinho</button>
             </div>
         </div>
 
         <div class="product">
-            <img src="asset/img/a.jpg" alt="Doce 2">
+            <img src="asset/img/um doce brigadeiro com um fundo rosa.png" alt="Doce 3">
             <div class="product-info">
-                <h2 class="product-title">Nome do Doce 2</h2>
-                <p class="product-price">R$ 30,00</p>
+                <h2 class="product-title">Brigadeiro</h2>
+                <p class="product-price">R$ 6,00</p>
+                <button class="add-button">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="asset/img/um donut com um fundo rosa.png" alt="Doce 3">
+            <div class="product-info">
+                <h2 class="product-title">Donut</h2>
+                <p class="product-price">R$ 11,00</p>
                 <button class="add-button">Adicionar ao Carrinho</button>
             </div>
         </div>
 
         <div class="product">
-            <img src="asset/img/a.jpg" alt="Doce 3">
+            <img src="asset/img/uma trufa com um fundo rosa.png" alt="Doce 3">
             <div class="product-info">
-                <h2 class="product-title">Nome do Doce 3</h2>
-                <p class="product-price">R$ 35,00</p>
-                <button class="add-button">Adicionar ao Carrinho</button>
-            </div>
-        </div>
-        <div class="product">
-            <img src="asset/img/a.jpg" alt="Doce 3">
-            <div class="product-info">
-                <h2 class="product-title">Nome do Doce 3</h2>
-                <p class="product-price">R$ 35,00</p>
+                <h2 class="product-title">Trufas</h2>
+                <p class="product-price">R$ 8,00</p>
                 <button class="add-button">Adicionar ao Carrinho</button>
             </div>
         </div>
 
         <div class="product">
-            <img src="asset/img/a.jpg" alt="Doce 3">
+            <img src="asset/img/uma macarron com um fundo rosa.png" alt="Doce 3">
             <div class="product-info">
-                <h2 class="product-title">Nome do Doce 3</h2>
-                <p class="product-price">R$ 35,00</p>
+                <h2 class="product-title">Macarron</h2>
+                <p class="product-price">R$ 16,00</p>
                 <button class="add-button">Adicionar ao Carrinho</button>
             </div>
         </div>
 
         <div class="product">
-            <img src="asset/img/a.jpg" alt="Doce 3">
+            <img src="asset/img/chocotone with a pink background.png" alt="Doce 3">
             <div class="product-info">
-                <h2 class="product-title">Nome do Doce 3</h2>
-                <p class="product-price">R$ 35,00</p>
-                <button class="add-button">Adicionar ao Carrinho</button>
-            </div>
-        </div>
-
-        <div class="product">
-            <img src="asset/img/a.jpg" alt="Doce 3">
-            <div class="product-info">
-                <h2 class="product-title">Nome do Doce 3</h2>
-                <p class="product-price">R$ 35,00</p>
+                <h2 class="product-title">Chocotone</h2>
+                <p class="product-price">R$ 22,00</p>
                 <button class="add-button">Adicionar ao Carrinho</button>
             </div>
         </div>
         <div class="product">
-            <img src="asset/img/a.jpg" alt="Doce 3">
+            <img src="asset/img/barra de chocolate recheada com fundo rosa (1).png" alt="Doce 3">
             <div class="product-info">
-                <h2 class="product-title">Nome do Doce 3</h2>
-                <p class="product-price">R$ 35,00</p>
+                <h2 class="product-title">Barra de chocolate recheada</h2>
+                <p class="product-price">R$ 18,00</p>
                 <button class="add-button">Adicionar ao Carrinho</button>
             </div>
         </div>  
